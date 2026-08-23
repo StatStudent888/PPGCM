@@ -153,7 +153,7 @@ The labeled sample contains the two-hour OGTT outcome, whereas the unlabeled sam
 ## GEO breast-cancer data
 
 The GEO breast-cancer analysis uses `GEO_data.csv`, which can be downloaded from the
-[latest GitHub Release](https://github.com/StatStudent888/PPGCM/releases/latest/download/GEO_data.csv).
+[latest GitHub Release](https://github.com/StatStudent888/PPGCM/releases/latest/download/GEO_data.zip).
 
 After downloading the file, place it at:
 
