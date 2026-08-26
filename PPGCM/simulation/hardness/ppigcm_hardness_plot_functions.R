@@ -70,8 +70,8 @@ plot_rejection_by_n_pretty <- function(res_by_n,
   method_levels <- names(method_colors)
   
   method_labels <- c(
-    "PPGCM (opt)" = "Naive PPGCM (opt)",
-    "PPGCM (w=1)" = "Naive PPGCM (w=1)",
+    "PPGCM (opt)" = "Naive PP-GCM (opt)",
+    "PPGCM (w=1)" = "Naive PP-GCM (w=1)",
     "GCM" = "GCM"
   )
   
@@ -194,8 +194,8 @@ plot_variance_by_n_pretty <- function(res_by_n,
   # Define the plotting order and display labels of the methods.
   method_levels <- names(method_colors)
   method_labels <- c(
-    "PPGCM (opt)" = "Naive PPGCM (opt)",
-    "PPGCM (w=1)" = "Naive PPGCM (w=1)",
+    "PPGCM (opt)" = "Naive PP-GCM (opt)",
+    "PPGCM (w=1)" = "Naive PP-GCM (w=1)",
     "GCM" = "GCM"
   )
   s$method_plot <- factor(s$method_plot, levels = method_levels)
