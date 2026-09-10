@@ -98,7 +98,7 @@
       stop("Package 'grf' is required for method = 'grf'.")
     }
     fit <- grf::regression_forest(
-      X = as.matrix(X), Y = y, num.trees = grf_num_trees
+      X = as.matrix(X), Y = y, num.trees = grf_num_trees, num.threads = 1
     )
     return(list(
       method = "grf", fit = fit,
