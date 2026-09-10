@@ -438,7 +438,7 @@ run_hardness_oracle_noS_fminus_one_c <- function(n_rep = 1000,
 
   beta_g <- make_sparse_beta(
     p_z = p_z,
-    beta_start = beta_start + 3,
+    beta_start = beta_start + 5,
     beta_nnz = beta_nnz,
     seed = beta_seed + 1
   )
