@@ -523,7 +523,7 @@ run_maxwayCRT_replications_one_c <- function(n_rep = 2000,
   set.seed(beta_seed)
   beta_x <- make_sparse_beta(p_z, beta_start, beta_nnz, z_names)
   beta_s <- make_sparse_beta(p_z, beta_start + 3, beta_nnz, z_names)
-  beta_g <- make_sparse_beta(p_z, beta_start + 3, beta_nnz, z_names)
+  beta_g <- make_sparse_beta(p_z, beta_start + 5, beta_nnz, z_names)
   
   # Run one complete data-generation and testing replication.
   one_replication <- function(r) {
