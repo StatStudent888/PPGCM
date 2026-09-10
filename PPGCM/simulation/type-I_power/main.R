@@ -104,7 +104,7 @@ run_ppicit_replications_one_c <- function(n_rep = 500,
   # beta_g corresponds to beta_y in the notation of the paper.
   beta_x <- make_sparse_beta(p_z, beta_start, beta_nnz)
   beta_s <- make_sparse_beta(p_z, beta_start + 3, beta_nnz)
-  beta_g <- make_sparse_beta(p_z, beta_start + 3, beta_nnz)
+  beta_g <- make_sparse_beta(p_z, beta_start + 5, beta_nnz)
 
   # ============================================================
   # Run one Monte Carlo replication
