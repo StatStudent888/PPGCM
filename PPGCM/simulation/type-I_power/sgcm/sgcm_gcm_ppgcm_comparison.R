@@ -113,7 +113,7 @@ make_simulation_parameters <- function(
   
   # Generate sparse coefficient vectors with fixed supports.
   beta_x[1:5] <- stats::rnorm(5)
-  beta_y[4:8] <- stats::rnorm(5)
+  beta_y[6:10] <- stats::rnorm(5)
   beta_s[4:8] <- stats::rnorm(5)
 
   list(
