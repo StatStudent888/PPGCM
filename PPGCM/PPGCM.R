@@ -332,7 +332,7 @@ ppicit_test <- function(label_data,
       # Compute B on the held-out labeled observations.
       f_label <- f_fit$predict(F_label[idx_test, , drop = FALSE])
       # misspecified prediction model
-      # f_label <- 0.5*f_fit$predict(F_label[idx_test, , drop = FALSE])
+      # f_label <- 0.6*f_fit$predict(F_label[idx_test, , drop = FALSE])
       V_label <- f_label - gy_label
       B_label <- eps_x_label * V_label
       
@@ -344,7 +344,7 @@ ppicit_test <- function(label_data,
       gy_unlabel <- g_fit$predict(Z_unlabel)
       f_unlabel <- f_fit$predict(F_unlabel)
       # misspecified prediction model
-      # f_unlabel <- 0.5*f_fit$predict(F_unlabel)
+      # f_unlabel <- 0.6*f_fit$predict(F_unlabel)
       
       eps_x_unlabel <- X_unlabel - hx_unlabel
       V_unlabel <- f_unlabel - gy_unlabel
